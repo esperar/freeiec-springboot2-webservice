@@ -24,7 +24,6 @@ class HelloControllerTest {
     public void hello_return() throws Exception{
         String hello = "hello";
 
-
     }
 
 
