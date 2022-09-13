@@ -27,6 +27,9 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	runtimeOnly 'com.h2database:h2'
 	compileOnly 'org.springframework.boot:spring-boot-starter-mustache'
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.6.3'
+
 }
 
 tasks.named('test') {
